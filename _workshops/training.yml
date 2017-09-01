@@ -6,8 +6,8 @@ content:
   url: https://raw.githubusercontent.com/appuio/workshopper-content/appuio
 
 vars:
-  USER_NAME: "(email)"
-  USER_PASSWORD: "(email)"
+  USER_NAME: "either your GitHub username or the one provided to you by the instructor"
+  USER_PASSWORD: "either your GitHub password or the one provided to you by the instructor"
   PARKSMAP_IMAGENAME: "parksmap"
   PARKSMAP_VERSION: "1.2.0"
   PARKSMAP_PY: true
@@ -16,7 +16,7 @@ vars:
   DOWNLOAD_CLIENT_WINDOWS: https://ose3-lab-master.puzzle.ch:8443/console/extensions/clients/windows/oc.exe
   DOWNLOAD_CLIENT_MAC: https://ose3-lab-master.puzzle.ch:8443/console/extensions/clients/macosx/oc
   DOWNLOAD_CLIENT_LIN64: https://ose3-lab-master.puzzle.ch:8443/console/extensions/clients/linux/oc
-  OC_VERSION: "oc v3.4.1.44\nkubernetes v1.4.0+776c994"
+  OC_VERSION: "oc v3.5.5.31\nkubernetes v1.5.2+43a9be4"
   GIT_HOST: github
   DOCS_URL: docs.openshift.org
 
@@ -34,3 +34,4 @@ modules:
   - application-health
   - codechanges
   - templates
+
