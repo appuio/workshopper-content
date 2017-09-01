@@ -3,7 +3,7 @@ id: training
 name: APPUiO Tech Labs
 
 content:
-  url: https://raw.githubusercontent.com/appuio/workshopper-content/master
+  url: https://raw.githubusercontent.com/appuio/workshopper-content/appuio
 
 vars:
   USER_NAME: "(email)"
