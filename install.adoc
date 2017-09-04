@@ -43,6 +43,8 @@ C:\OpenShift
 ~/OpenShift
 ----
 
+NOTE: Make sure to set the executable rights for the user to the binary file (Only necessary for Linux and OS X).
+
 
 #### Adding `oc` to your PATH
 

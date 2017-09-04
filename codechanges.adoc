@@ -12,8 +12,9 @@ achieved.
 {% if GIT_HOST == "github" %}
 #### Getting the webhook URL
 
-Go to **Builds** -> **Builds** -> **Configuration** and there in the
-**Triggers** section there is **Github webhook URL** copy the URL to be used
+Go to **Builds** -> **Builds**. Click the appropriate Build. In the
+tab **Configuration** you find the **Triggers** section.
+Copy the URL statet in **Github webhook URL**. This URL to be used
 for configuring the webhook at Github.
 
 
