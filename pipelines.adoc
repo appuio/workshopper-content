@@ -311,9 +311,15 @@ build type. Pipeline workflows are defined in a Jenkinsfile, either embedded dir
 in the build configuration, or supplied in a Git repository and referenced by the
 build configuration.
 
+{% if modules.python %}
+In order to create the pipeline, click on the *Add to project* button,
+find the `dev-live-pipeline-py` template, and click on it. Specify the project name
+and click on *Create*
+{% else %}
 In order to create the pipeline, click on the *Add to project* button,
 find the `dev-live-pipeline` template, and click on it. Specify the project name
 and click on *Create*
+{% endif %}
 
 NOTE: Specify the name of the project (e.g. `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}`) where
 `nationalparks` *Dev* and *Live* containers are deployed.
