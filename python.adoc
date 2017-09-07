@@ -176,7 +176,7 @@ You can also view the build logs with the following command:
 
 [source]
 ----
-$ oc logs -f builds/nationalparks-1
+$ oc logs -f builds/nationalparks-py-1
 ----
 
 After the build has completed and successfully:
