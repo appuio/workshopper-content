@@ -19,6 +19,7 @@ vars:
   OC_VERSION: "oc v3.5.5.31\nkubernetes v1.5.2+43a9be4"
   GIT_HOST: github
   DOCS_URL: docs.openshift.org
+  NO_USER_PROJECT: true
 
 modules:
   activate:
