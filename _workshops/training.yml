@@ -25,14 +25,20 @@ modules:
   activate:
   - install
   - explore
-  - parksmap-architecture
   - docker
   - scaling
   - routes
+  - logging
   - permissions
+  - remote-ops
   - python
+#  - java
+#  - databases
   - databases-py
+  - configmap
   - application-health
+  - pipelines
   - codechanges
   - templates
-
+  - clustering
+  - further-resources  
