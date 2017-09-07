@@ -40,5 +40,4 @@ modules:
   - pipelines
   - codechanges
   - templates
-  - clustering
   - further-resources  
